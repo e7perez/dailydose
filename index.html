@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Daily Dose</title>
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "DailyDose">
+    <meta name = "keywords" content = "HTML, CSS, JavaScript, DailyDose">
+    <meta name = "author" content = "Emmanuel Perez">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./CSS/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <section id = "top">
+            <div class="container">
+                <div class = "topnav" id = "myTopnav">
+                    <a class = "logo" href = "">Daily<span>Dose</span></a>
+                    <span class = "topnav-right">
+                        <a href = "">Pricing</a>
+                        <a href = "">Download</a>
+                        <a href = "">Help</a>
+                        <a href = "">Sign Up</a>
+                        <a href = "">Login</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </span>
+                  </div>
+
+                <script>
+                  function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                      x.className += " responsive";
+                    } else {
+                      x.className = "topnav";
+                    }
+                  }
+                  </script>
+                
+                <div class = "wrapper">
+                    <div class = "info">
+                        <h1>Non-stop music.</h1>
+                        <p>All your favorite songs streaming 24/7 personalized and automated <br>
+                        for your daily routuine. Sign up now for a free 30-day trial.</p>
+                        <a id = "button" href = "">Get Started</a>
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+        <section id = "trio">
+          <div class = "trio-container">
+                <div class="box">
+                  <img src="./IMG/dancing.jpg">
+                  <div class="desc">
+                    <h1>Truly Unlimited & Ad Free</h1>
+                    <p>Stream and download any of your favorite songs and artists at anytime of the day as much as you want.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <img src="./IMG/driving.jpg">
+                  <div class="desc">
+                    <h1>Personalized Playlists</h1>
+                    <p>Automatically create playlists based on some of your favorite songs or artists and what's hot.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <img src="./IMG/sleeping.jpg">
+                  <div class="desc">
+                    <h1>Scheduled Listening</h1>
+                    <p>Automate and schedule when and which of your favorite songs are played at any time of the day.</p>
+                  </div>
+                </div>
+          </div>
+          <div class = "link">
+            <a class = "explore" href="">Explore</a>
+          </div>
+        </section>
+        <section id = "pricing">
+          <ul class = "title">
+            <li>
+              <h1>Pricing Packages</h1>
+            </li>
+            <li>
+              <p>Find the right package for you and all your devices.</p>
+            </li>
+            <li>
+              <a class = "enroll" href="">Enroll</a>
+            </li>
+          </ul>
+          <div class="columns">
+            <div class="student">
+              <h4>Student</h4>
+              <h1>$5</h1>
+              <p>Requires .edu email validation and renewal every 6 months.</p>
+              <ul>
+                <li>Unlimited ad-free listening</li>
+                <li>Supports up to 3 devices</li>
+                <li>Listen on 2 devices at once</li>
+                <li>Unlimited personalized playlists</li>
+                <li>Scheduled listening</li>
+              </ul>
+            </div>
+            <div class="family">
+              <h4>Family</h4>
+              <h1>$10</h1>
+              <p>Requires a minimum of 3 devices. Upgrade options avaliable.</p>
+              <ul>
+                <li>Unlimited ad-free listening</li>
+                <li>Supports up to 5 devices</li>
+                <li>Listen on 4 devices at once</li>
+                <li>Unlimited personalized playlists</li>
+                <li>Scheduled listening</li>
+                <li>Parental controls</li>
+              </ul>
+            </div>
+            <div class="business">
+              <h4>Business</h4>
+              <h1>$20</h1>
+              <p>Maximum 5 devices per user. Upgrade options avaliable.</p>
+              <ul>
+                <li>Unlimited ad-free listening</li>
+                <li>Supports up to 100 devices</li>
+                <li>Listen on 75 devices at once</li>
+                <li>Unlimited personalized playlists</li>
+                <li>Scheduled listening</li>
+                <li>Device monitoring</li>
+                <li>Separate billing</li>
+              </ul>
+            </div>
+          </div>
+
+        </section>
+        <section id = "bottom">
+          <div class = "bottom-content">
+            <div class = "one">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="745" height="229" viewBox="0 0 745 229">
+                <image x="134" y="43" width="478" height="159" xlink:href="data:img/png;base64,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"/>
+              </svg>              
+              <h1>One account, listen <span>everywhere</span>.</h1>
+              <ul>
+                <li><a>Desktop</a></li>
+                <li><a>TV</a></li>
+                <li><a>Gaming</a></li>
+                <li><a>Mobile</a></li>
+                <li><a>Car</a></li>
+              </ul>
+            </div>
+            <div class = "yours">
+              <h1>Bring your music anywhere.</h1>
+              <p>Syncing your music across all devices is free, quick, and simple.</p>
+              <div class = "link">
+                <a><img src = "https://www-growth.scdn.co/static/badges/apple/en.png"></a>
+                <a><img src = "https://www-growth.scdn.co/static/badges/google/en.png"></a>
+                <a><img src = "https://www-growth.scdn.co/static/badges/microsoft-windows/en.png"></a>
+                <a><img src = "https://www-growth.scdn.co/static/badges/amazon/us.png"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class = "footer">
+          <div class = "footer-container">
+            
+            <div class = "logo">
+              <a class = "logo">Daily<span>Dose</span></a>
+            </div>
+
+            <div class="middle">
+              
+              <dl class = "company">
+                <dt><span>Company</span></dt>
+                <dd><a href="">About</a></dd>
+                <dd><a href="">Jobs</a></dd>
+                <dd><a href="">FAQ</a></dd>
+              </dl>
+              <dl class = "community">
+                <dt><span>Community</span></dt>
+                <dd><a href="">For Artists</a></dd>
+                <dd><a href="">Developers</a></dd>
+                <dd><a href="">Brands</a></dd>
+                <dd><a href="">Investors</a></dd>
+                <dd><a href="">Vendors</a></dd>
+              </dl>
+              <dl class = "support">
+                <dt><span>Support</span></dt>
+                <dd><a href="">Help</a></dd>
+                <dd><a href="">Downloads</a></dd>
+                <dd><a href="">Web Player</a></dd>
+                <dd><a href="">Mobile</a></dd>
+              </dl>
+              <div class = "icons">
+                <ul class = "icon-links">
+                  <a><li><i class="fa fa-instagram"></i></li></a>
+                  <a><li><i class="fa fa-twitter"></i></li></a>
+                  <a><li><i class="fa fa-facebook-f"></i></li></a>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="legal">
+              <ul class = "legal-content">
+                <a href=""><li>Legal</li></a>
+                <a href=""><li>Privacy Center</li></a>
+                <a href=""><li>Cookies</li></a>
+                <a href=""><li>About Ads</li></a>
+                <a href=""><li>Additional Privacy Disclosures</li></a>
+                <li><span class = "copyright">© 2020 DailyDose</span></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </body>
+</html>

@@ -1,0 +1,292 @@
+#pricing {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    height: 1000px;
+    padding-top: 50px;
+}
+.title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.title p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.title a {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #06c;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+.columns {
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 1700px;
+    text-align: center;
+}
+.columns h4{
+    margin: 60px;
+    font-size: 44px;
+}
+.columns h1{
+    font-size: 200px;
+    font-weight: 700;
+}
+.columns p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.columns li{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.student {
+    padding-left: 50px;
+    height: 750px;
+    width: 500px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%),
+    url(../IMG/student.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 20px;
+    border-radius: 20px;
+    float: left;
+}
+.family {
+    height: 750px;
+    width: 500px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%),
+    url(../IMG/family.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 20px;
+    border-radius: 20px;
+    float: left;
+}
+.business {
+    height: 750px;
+    width: 500px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%),
+    url(../IMG/business.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 20px;
+    border-radius: 20px;
+    float: left;
+}
+.student:hover {
+    cursor: pointer;
+}
+.family:hover {
+    cursor: pointer;
+}
+.business:hover {
+    cursor: pointer;
+}
+/*Widescreen  */
+
+@media only screen and (max-width: 1695px) {
+	.columns{
+        width: 100%;
+    }
+    .student {
+        padding: 0px;
+        width: 30%;
+        margin: 5px;
+    }
+    .family {
+        padding: 0px;
+        width: 33%;
+        margin: 5px;
+    }
+    .business {
+        padding: 0px;
+        width: 30%;
+        margin: 5px;
+    }
+    
+    .student h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .student h1 {
+        font-size: 150px;
+    }
+    .student p {
+        font-size: 12px;
+    }
+    .student li {
+        font-size: 20px;
+    }
+    
+    .family h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .family h1 {
+        font-size: 150px;
+    }
+    .family p {
+        font-size: 12px;
+    }
+    .family li {
+        font-size: 20px;
+    }
+    .business h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .business h1 {
+        font-size: 150px;
+    }
+    .business p {
+        font-size: 12px;
+    }
+    .business li {
+        font-size: 20px;
+    }
+} 
+
+/*Tablets */
+
+@media only screen and (max-width: 1023px) {
+	#pricing {
+        height: 2500px;
+    }
+    .columns{
+        width: 50%;
+    }
+    .student {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .student h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .student h1 {
+        font-size: 150px;
+    }
+    .student p {
+        font-size: 12px;
+    }
+    .student li {
+        font-size: 20px;
+    }
+    .family {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .family h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .family h1 {
+        font-size: 150px;
+    }
+    .family p {
+        font-size: 12px;
+    }
+    .family li {
+        font-size: 20px;
+    }
+
+    .business {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .business h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .business h1 {
+        font-size: 150px;
+    }
+    .business p {
+        font-size: 12px;
+    }
+    .business li {
+        font-size: 20px;
+    }
+} 
+
+
+/*Mobile */
+
+@media screen and (max-width: 767px) {
+    #pricing {
+        height: 2500px;
+    }
+    .columns{
+        width: 50%;
+    }
+    .student {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .student h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .student h1 {
+        font-size: 120px;
+    }
+    .student p {
+        font-size: 12px;
+    }
+    .student li {
+        font-size: 15px;
+    }
+    .family {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .family h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .family h1 {
+        font-size: 100px;
+    }
+    .family p {
+        font-size: 12px;
+    }
+    .family li {
+        font-size: 15px;
+    }
+
+    .business {
+        padding: 0px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .business h4{
+        font-size: 30px;
+        margin: 60px 10px;
+    }
+    .business h1 {
+        font-size: 100px;
+    }
+    .business p {
+        font-size: 12px;
+    }
+    .business li {
+        font-size: 15px;
+    }
+    
+} 

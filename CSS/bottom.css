@@ -1,0 +1,90 @@
+.bottom-content {
+    font-family: 'Roboto', sans-serif;
+}
+.one {
+    text-align: center;
+    padding-bottom: 200px;
+    background-image: url(../IMG/bluepurple-wave.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.one h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.one span {
+    color: #6154B1;
+}
+.one li {
+    display: inline;
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+}
+.one li:hover {
+    cursor: pointer;
+    color: #6154B1;
+}
+.yours {
+    text-align: center;
+    padding: 60px;
+    background-color: #6154B1;
+}
+.yours h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.yours p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+.yours .link img{
+    height: 40px;
+    outline: 2px solid #6154B1;
+    outline-offset: -2px;
+}
+.yours .link img:hover {
+    cursor: pointer;
+}
+
+/*Widescreen  */
+
+/* @media only screen and (max-width: 1215px) {
+	.body{
+        background-color: blue;
+    }
+} */
+
+/*Tablets */
+
+/* @media only screen and (max-width: 1023px) {
+	.body{
+        background-color: green;
+    }
+} */
+
+
+/*Mobile */
+
+@media screen and (max-width: 767px) {
+    .one svg {
+       width: 100%;
+    }
+    .one h1 {
+        font-size: 35px;
+    }
+    .one li {
+        font-size: 15px;
+    }
+    .yours h1 {
+        font-size: 30px;
+    }
+    .yours p {
+        font-size: 20px;
+    }
+}
